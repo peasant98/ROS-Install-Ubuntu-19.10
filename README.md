@@ -5,8 +5,10 @@ to be installed (has to be installed from source), so be aware of that.
 
 ## Installation
 
-- `chmod <permissions you want> install-ros.sh`
-- `./install-ros.sh <installation-directory>`
+```sh
+chmod <permissions you want> install-ros.sh
+./install-ros.sh <installation-directory>
+```
 - The above command will install ROS Melodic (desktop full) into `installation-directory`, which can be reached at 
 `cd ~/installation-directory`.
 
@@ -14,8 +16,10 @@ to be installed (has to be installed from source), so be aware of that.
 ## Updates
 
 - If there are updates to ROS Melodic:
-- `chmod <permissions you want> update-ros.sh`
-- `./update-ros.sh <installation-directory>`
+```sh
+chmod <permissions you want> update-ros.sh
+./update-ros.sh <installation-directory>
+```
 - The above command will update ROS from `installation-directory`,
 where Melodic was originally installed.
 
